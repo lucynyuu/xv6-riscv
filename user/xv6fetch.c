@@ -5,11 +5,11 @@
 /*
  * ANSI colors
  */
-#define C_RESET  "\033[0m"
-#define C_CYAN   "\033[1;36m"
-#define C_PURPLE   "\033[0;35m"
-#define C_WHITE  "\033[1;37m"
-#define C_GRAY   "\033[1;30m"
+#define C_RESET     "\033[0m"
+#define C_CYAN      "\033[1;36m"
+#define C_PURPLE    "\033[0;35m"
+#define C_WHITE     "\033[1;37m"
+#define C_GRAY      "\033[1;30m"
 
 int
 main(void)
