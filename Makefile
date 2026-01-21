@@ -149,6 +149,7 @@ UPROGS=\
 	$U/_getcourseno\
 	$U/_shutdown\
 	$U/_clear\
+	$U/_xv6fetch\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
