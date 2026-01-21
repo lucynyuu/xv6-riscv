@@ -148,6 +148,7 @@ UPROGS=\
 	$U/_dorphan\
 	$U/_getcourseno\
 	$U/_shutdown\
+	$U/_clear\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
